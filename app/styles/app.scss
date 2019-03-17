@@ -1,0 +1,20 @@
+@import './variables';
+@import '../../node_modules/materialize-css/sass/materialize';
+@import './components';
+
+
+html {
+	background: #7b86a1;
+	color: $ussaWhite;
+}
+
+.points {
+	margin-top: 45px;
+
+
+	.logo {
+		margin-right: 15px;
+		width: 50px;
+		vertical-align: middle;
+	}
+}
