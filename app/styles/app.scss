@@ -4,7 +4,7 @@
 
 html {
 	background: #7b86a1;
-	color: $ussaWhite;
+	color: black;
 }
 
 .points {
@@ -16,4 +16,47 @@ html {
 		width: 50px;
 		vertical-align: middle;
 	}
+}
+
+
+/* Added these styles */
+.strong {
+  color: black;
+  font-weight: bold;
+}
+
+.photo {
+  width: 160px;
+  height: 120px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+table.striped > tbody > tr:nth-child(even) {
+  background-color: rgba(231, 231, 231, 1.0);
+}
+
+table.address,
+table.details {
+  padding: 0px;
+
+  td {
+    padding: 5px;
+  }
+
+  tr {
+    border-bottom: 0;
+  }
+}
+
+table.list {
+  padding: 8px;
+}
+
+.flexItem {
+  padding: 20px !important;
 }
